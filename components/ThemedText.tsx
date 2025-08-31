@@ -37,24 +37,32 @@ const styles = StyleSheet.create({
   default: {
     fontSize: 16,
     lineHeight: 24,
+    fontFamily: 'SpaceMono',
+    fontWeight: '400',
   },
   defaultSemiBold: {
     fontSize: 16,
     lineHeight: 24,
+    fontFamily: 'SpaceMono',
     fontWeight: '600',
   },
   title: {
     fontSize: 32,
-    fontWeight: 'bold',
-    lineHeight: 32,
+    fontWeight: '700',
+    fontFamily: 'SpaceMono',
+    lineHeight: 40,
   },
   subtitle: {
     fontSize: 20,
-    fontWeight: 'bold',
+    fontWeight: '600',
+    fontFamily: 'SpaceMono',
+    lineHeight: 28,
   },
   link: {
     lineHeight: 30,
     fontSize: 16,
-    color: '#0a7ea4',
+    fontFamily: 'SpaceMono',
+    color: '#818CF8', // theme accent
+    textDecorationLine: 'underline',
   },
 });

@@ -36,10 +36,16 @@ const styles = StyleSheet.create({
   heading: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 6,
+    gap: 8,
+    paddingVertical: 8,
+    paddingHorizontal: 4,
+    borderRadius: 16,
+    backgroundColor: 'transparent',
   },
   content: {
-    marginTop: 6,
+    marginTop: 8,
     marginLeft: 24,
+    padding: 8,
+    borderRadius: 12,
   },
 });

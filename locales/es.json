@@ -1,0 +1,43 @@
+{
+  "welcome": {
+    "title": "Bienvenido a Maggie",
+    "headline": "Todo para tus compras",
+    "subheadline": "Listas bonitas, colaboración y recordatorios",
+    "body": "Organiza lo que necesitas sin esfuerzos. Comparte y marca al instante.",
+    "tagline": "Compras sin complicaciones, en un lugar bonito y oscuro.",
+    "description": "Crea listas elegantes, colabora con tu familia y comparte al instante.",
+    "featureLists": "Listas organizadas y fáciles de usar",
+    "featureCollaborate": "Colaboración en tiempo real con otras personas",
+    "featureShare": "Comparte por enlace o invitación",
+    "featureReminders": "Prioridades, categorías y recordatorios",
+    "featureHistory": "Historial y sugerencias inteligentes",
+    "primaryCta": "Comenzar",
+    "subtitle": "Por favor, inicia sesión para continuar"
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "register": "Registrarse",
+    "createAccount": "Crear cuenta",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "toggleToRegister": "¿No tienes cuenta? Crea una",
+    "toggleToSignIn": "¿Ya tienes cuenta? Inicia sesión",
+    "pleaseWait": "Por favor espera…",
+    "missingInfoTitle": "Faltan datos",
+    "missingInfoMessage": "Ingresa correo y contraseña",
+    "authFailedTitle": "Autenticación fallida",
+    "unknownError": "Error desconocido",
+    "enterEmailTitle": "Ingresa correo",
+    "enterEmailMessage": "Proporciona tu correo para restablecer",
+    "emailSentTitle": "Correo enviado",
+    "emailSentMessage": "Revisa tu bandeja para restablecer la contraseña",
+    "resetFailedTitle": "Error al restablecer"
+  },
+  "home": {
+    "title": "Inicio",
+    "greeting": "Hola {{name}} 👋",
+    "greetingNoName": "Hola 👋",
+    "signOut": "Cerrar sesión"
+  }
+}

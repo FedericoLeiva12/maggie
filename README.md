@@ -48,3 +48,20 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Authentication (Firebase)
+
+- Provider: `@react-native-firebase/auth` using email/password.
+- Files:
+  - `contexts/AuthContext.tsx`: Auth state and methods (`signInWithEmail`, `registerWithEmail`, `sendPasswordReset`, `signOut`).
+  - `app/_layout.tsx`: Route guard redirects guests to `/(auth)/welcome`.
+  - `app/(auth)/sign-in.tsx`: Minimal email/password UI for sign in and register.
+
+Setup
+- Ensure Firebase Email/Password provider is enabled in Firebase Console.
+- Place `GoogleService-Info.plist` and `google-services.json` at the project root (already present) and inside platform folders as needed.
+- Run the app with `npx expo run:ios` or `npx expo run:android` after any native changes.
+
+Usage
+- Wrap your UI with `AuthProvider` (already done in `app/_layout.tsx`).
+- Access the current user and actions with `useAuth()`.
