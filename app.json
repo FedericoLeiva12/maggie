@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "maggie",
+    "name": "Maggie",
     "slug": "maggie",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,11 +19,12 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0F0F1A"
       },
       "edgeToEdgeEnabled": true,
       "googleServicesFile": "./google-services.json",
-      "package": "com.invboy.maggie"
+      "package": "com.invboy.maggie",
+      "versionCode": "1"
     },
     "web": {
       "bundler": "metro",
@@ -38,7 +39,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#0F0F1A"
         }
       ],
       "@react-native-firebase/app",
